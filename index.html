@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedores</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/bootstrap.bundle.min.js"></script> 
+
+    
+</head>
+<body>
+    <div>
+        <main>
+            <h3>Cadastro de Fornecedores:</h3>
+            <label>Razao social:</label>
+            <input id="inpRazaoSocial" class="form-control col-md-3" />
+            <label>Email:</label>
+            <input id="inpEmail" class="form-control col-md-3" />
+            <label>Prazo de entrega:</label>
+            <input id="inpPrazoDeEntrega" class="form-control col-md-3" />
+            <button id="btnIncluir" class="btn btn-warning mt-4">Incluir</button>
+    
+            <table class="table col-md-10 mt-2">
+                <thead>
+                    <th>
+                        Codigo
+                    </th>
+    
+                    <th>
+                        Razao Social
+                    </th>
+    
+                    <th>
+                        Email
+                    </th>
+    
+                    <th>
+                        Prazo de entrega (dias)
+                    </th>
+    
+                    <th>
+                        Margem prazo de entrega (dias)
+                    </th>
+                </thead>
+    
+                <tbody id="bodyFornecedor">
+                    <tr>
+                        <td>
+                            
+                        </td>
+    
+                        <td>
+                            
+                        </td>
+    
+                        <td>
+                            
+                        </td>
+    
+                        <td>
+                            
+                        </td>
+    
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+<script src="Fornecedor.js"></script> 
+<script src="FornecedorController.js"></script>  
+</body>
+</html>
